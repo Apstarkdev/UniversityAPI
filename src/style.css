@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* Header */
+
+#header-container{
+    z-index: 10;
+    background-color: rgb(248, 99, 73);
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.header-text{
+    margin-left: 20px;
+    margin-right: 80px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.header-text-eva4{
+    margin-left: 20px;
+    margin-right: 80px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* Tabla */
+#tabla-father-container {
+    z-index: 0;
+    left: 23%;
+    position: absolute;
+    width: 50vw;
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    top: 70px;
+    overflow: auto;
+    min-width: 550px;
+
+  }
+  
+  table {
+    max-width: 100%;
+  }
+
+#btn-link{
+    background-color: rgb(255, 145, 0);
+    border: none;
+    border-radius: 50px;
+    width: 90px;
+    height: 40px;
+}
+
+#btn-link a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+th{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+#pais-case{
+    padding-right: 70px;
+}
+
+#api-container{
+    margin-top: 80px;
+}
+
+
+/* Selector */
+
+#selector{
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    margin-top: 80px;
+}
+#paises{
+    width: 150px;
+    height: 30px;
+}
+
+td{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* TH sticky */
+th.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    background-color: white;
+    font-size: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse; 
+  }
+  
+  /* Custom Scroll */
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #eecd8a; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffa600; 
+    border-radius: 5px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #ff7c00; 
+  }
+  
